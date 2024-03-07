@@ -7,10 +7,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<>
+		<div className="container mx-auto">
 			<Navbar />
 			{children}
 			<Footer />
-		</>
+		</div>
 	);
 }
