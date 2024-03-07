@@ -25,6 +25,7 @@ const Navbar = () => {
 				</div>
 			</div>
 
+			{/* Main Header Content Section */}
 			<div>Header</div>
 		</section>
 	);
